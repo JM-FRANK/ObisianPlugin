@@ -1,7 +1,7 @@
 {
-  "id": "math-inline-block-toggle",
-  "name": "math-inline-block-toggle",
-  "version": "0.1.0",
+  "id": "obisian-latex-inline-block-toggle",
+  "name": "obisian-Latex-inline-block-toggle",
+  "version": "0.1.1",
   "minAppVersion": "1.5.0",
   "description": "Convert LaTeX math between inline ($...$) and display block ($$...$$) styles in the editor.",
   "author": "Frank Smith",

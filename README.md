@@ -1,4 +1,4 @@
-# math-inline-block-toggle
+# obisian-Latex-inline-block-toggle
 
 Convert LaTeX math between inline (`$...$`) and display block (`$$...$$`) styles directly in the Obsidian editor.
 
@@ -53,7 +53,7 @@ $$
 
 1. Build the plugin (see build steps below).
 2. Create a folder in your vault:
-   - `.obsidian/plugins/math-inline-block-toggle/`
+   - `.obsidian/plugins/obisian-latex-inline-block-toggle/`
 3. Copy these files into that folder:
    - `main.js`
    - `manifest.json`
@@ -61,7 +61,7 @@ $$
 4. In Obsidian:
    - Open `Settings -> Community plugins`
    - Disable Safe mode (if needed)
-   - Enable `math-inline-block-toggle`
+   - Enable `obisian-Latex-inline-block-toggle`
 
 ## Development Setup
 
@@ -121,7 +121,7 @@ npm run build
 
 ## Settings
 
-Open `Settings -> Community plugins -> math-inline-block-toggle`:
+Open `Settings -> Community plugins -> obisian-Latex-inline-block-toggle`:
 
 - `Show commands in editor context menu` (default: `true`)
   - Show/hide the conversion actions in the editor right-click menu.

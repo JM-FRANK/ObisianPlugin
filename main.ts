@@ -891,7 +891,7 @@ class MathInlineBlockToggleSettingTab extends PluginSettingTab {
 		const { containerEl } = this;
 		containerEl.empty();
 
-		containerEl.createEl("h2", { text: "math-inline-block-toggle" });
+		containerEl.createEl("h2", { text: "obisian-Latex-inline-block-toggle" });
 
 		new Setting(containerEl)
 			.setName("Show commands in editor context menu")

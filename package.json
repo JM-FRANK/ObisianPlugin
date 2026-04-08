@@ -1,6 +1,6 @@
 {
-  "name": "math-inline-block-toggle",
-  "version": "0.1.0",
+  "name": "0bisian-latex-inline-block-toggle",
+  "version": "0.1.1",
   "description": "Obsidian plugin to convert LaTeX math between inline and display block styles.",
   "main": "main.js",
   "scripts": {
