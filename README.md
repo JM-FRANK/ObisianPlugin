@@ -1,4 +1,5 @@
 # obisian-Latex-inline-block-toggle
+Release page: https://github.com/JM-FRANK/Obisian-Latex-inline-block-toggle
 
 Convert LaTeX math between inline (`$...$`) and display block (`$$...$$`) styles directly in the Obsidian editor.
 
@@ -151,28 +152,6 @@ $$ formula $$
 - Malformed or deeply ambiguous delimiter patterns are safely rejected with a notice.
 - Fenced math blocks like ```` ```math ```` are not supported (by design).
 - This plugin does not implement a full LaTeX parser.
-
-## Publishing and Release Notes (Obsidian Community Plugin Conventions)
-
-Before publishing a release:
-
-1. Ensure `manifest.json` version is updated.
-2. Run:
-   - `npm run build`
-   - `npm run version`
-3. Confirm `versions.json` maps plugin version to `minAppVersion`.
-4. Publish release artifacts containing:
-   - `manifest.json`
-   - `main.js`
-   - `styles.css`
-5. Tag GitHub release using the plugin version (for example `0.1.0` or `v0.1.0`).
-6. Verify metadata consistency across:
-   - `manifest.json`
-   - `package.json`
-   - `README.md`
-   - `versions.json`
-
-For community submission, follow the latest checklist in the official Obsidian sample plugin and submission guidance.
 
 ## License
 
