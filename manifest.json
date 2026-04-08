@@ -1,0 +1,10 @@
+{
+  "id": "math-inline-block-toggle",
+  "name": "math-inline-block-toggle",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Convert LaTeX math between inline ($...$) and display block ($$...$$) styles in the editor.",
+  "author": "Frank Smith",
+  "authorUrl": "https://github.com/franksmith",
+  "isDesktopOnly": false
+}

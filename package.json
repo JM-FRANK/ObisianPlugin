@@ -1,0 +1,27 @@
+{
+  "name": "math-inline-block-toggle",
+  "version": "0.1.0",
+  "description": "Obsidian plugin to convert LaTeX math between inline and display block styles.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "version": "node version-bump.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "latex",
+    "math"
+  ],
+  "author": "Frank Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.23.0",
+    "obsidian": "^1.6.7",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3"
+  }
+}

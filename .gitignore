@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.log
+
+# Obsidian plugin build artifacts
+main.js
+styles.css.map
+data.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
